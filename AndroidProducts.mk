@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 # Copyright (C) 2018 The LiquidRemix Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,4 +17,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/liquid_enchilada.mk
+
+COMMON_LUNCH_CHOICES := \
+    liquid_enchilada-user \
+    liquid_enchilada-userdebug \
+    liquid_enchilada-eng
 
